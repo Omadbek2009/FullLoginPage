@@ -1,0 +1,38 @@
+.user {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px 0;
+
+    .users {
+        width: 90%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        justify-content: space-around;
+        font-family: sans-serif;
+        color: #fff;
+        border-radius: 50px;
+        background: #236c09e8;
+        transition: all .5s;
+
+        &:hover {
+            box-shadow: 10px 7px 7px #84d766e8;
+        }
+
+        h3 {
+            cursor: text;
+            font-size: 18px;
+            color: #e2d9d9;
+
+            b {
+                color: #c0bebe;
+            }
+        }
+    }
+
+}
